@@ -20,54 +20,16 @@ export function App() {
           aplicações web modernas e escaláveis
         </p>
 
-        <button className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-40 h-10 text-zinc-100 font-semibold rounded-full">
+        <a
+          href="https://www.linkedin.com/in/pedroff/"
+          target="_blank"
+          className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-40 h-10 text-zinc-100 font-semibold rounded-full flex items-center justify-center"
+        >
           Saber mais
-        </button>
+        </a>
       </div>
 
       <Projects />
-
-      {/* <div>
-        <h1>Sobre mim</h1>
-        <ul className="text-zinc-100">
-          <li className="border-t border-t-zinc-100">
-            2018
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati praesentium quasi nihil soluta optio amet mollitia
-              delectus quisquam, eius dolore iusto quas ducimus molestias quidem
-              similique cum et fugit cumque!
-            </p>
-          </li>
-          <li>
-            2019
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati praesentium quasi nihil soluta optio amet mollitia
-              delectus quisquam, eius dolore iusto quas ducimus molestias quidem
-              similique cum et fugit cumque!
-            </p>
-          </li>
-          <li>
-            2020
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati praesentium quasi nihil soluta optio amet mollitia
-              delectus quisquam, eius dolore iusto quas ducimus molestias quidem
-              similique cum et fugit cumque!
-            </p>
-          </li>
-          <li>
-            2021
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati praesentium quasi nihil soluta optio amet mollitia
-              delectus quisquam, eius dolore iusto quas ducimus molestias quidem
-              similique cum et fugit cumque!
-            </p>
-          </li>
-        </ul>
-      </div> */}
 
       <Timeline />
 

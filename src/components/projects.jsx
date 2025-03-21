@@ -1,4 +1,5 @@
 import arqSite from "../assets/project-arq.png";
+import portfolio from "../assets/project-portfolio.png";
 import salesDashboard from "../assets/project-sales-dashboard.png";
 import taskBoard from "../assets/project-task-board.png";
 import timer from "../assets/project-timer.png";
@@ -30,12 +31,13 @@ export function Projects() {
           </div>
 
           <div>
-            <button
-              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full"
-              // onClick={navigateToProject("ignite-timer")}
+            <a
+              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full flex justify-center items-center"
+              href="https://github.com/pedrorfdev/IgniteTimer"
+              target="_blank"
             >
               Ver Reposítório
-            </button>
+            </a>
           </div>
         </div>
 
@@ -56,12 +58,13 @@ export function Projects() {
           </div>
 
           <div>
-            <button
-              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full"
-              // onClick={navigateToProject("ignite-timer")}
+            <a
+              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full flex justify-center items-center"
+              href="https://github.com/pedrorfdev/sales-dashboard"
+              target="_blank"
             >
               Ver Reposítório
-            </button>
+            </a>
           </div>
         </div>
 
@@ -79,12 +82,13 @@ export function Projects() {
           </div>
 
           <div>
-            <button
-              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full"
-              // onClick={navigateToProject("ignite-timer")}
+            <a
+              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full flex justify-center items-center"
+              href="https://github.com/pedrorfdev/RID180444_task-board"
+              target="_blank"
             >
               Ver Reposítório
-            </button>
+            </a>
           </div>
         </div>
 
@@ -103,12 +107,39 @@ export function Projects() {
           </div>
 
           <div>
-            <button
-              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full"
-              // onClick={navigateToProject("ignite-timer")}
+            <a
+              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full flex justify-center items-center"
+              href="https://github.com/pedrorfdev/arq"
+              target="_blank"
             >
               Ver Reposítório
-            </button>
+            </a>
+          </div>
+        </div>
+
+        <div className="max-w-[450px] h-[550px] flex flex-col p-5 rounded-ss-3xl rounded-ee-3xl ring ring-zinc-100/70">
+          <div>
+            <img
+              className="w-full rounded-sm bg-black p-1"
+              src={portfolio}
+              alt=""
+            />
+          </div>
+
+          <div className="text-zinc-100 flex flex-col justify-center gap-5 flex-1">
+            <h1 className="text-2xl font-semibold text-sky-500">Portfolio</h1>
+
+            <p className="h-1/2">Meu portfolio, desenvolvido em React</p>
+          </div>
+
+          <div>
+            <a
+              className="bg-linear-to-r/oklch from-purple-500 to-sky-400 w-full md:w-40 h-10 text-zinc-100 font-semibold rounded-full flex justify-center items-center"
+              href="https://github.com/pedrorfdev/portfolio-dev"
+              target="_blank"
+            >
+              Ver Reposítório
+            </a>
           </div>
         </div>
       </div>

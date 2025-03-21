@@ -9,11 +9,11 @@ export function Timeline() {
         {/* 2018 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center font-semibold mt-8 ">
+          <h5 className="text-lg text-center font-semibold mt-8">
             2018
             <br />
             Fundamentos da Programação
-          </h1>
+          </h5>
           <p className="text-sm mt-20 text-center h-full flex items-center">
             Lógica de programação e orientação a objetos.
           </p>
@@ -22,9 +22,11 @@ export function Timeline() {
         {/* 2020 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center font-semibold mt-8 ">
-            2020: Desenvolvimento Full-Stack
-          </h1>
+          <h5 className="text-lg text-center font-semibold mt-8 ">
+            2020
+            <br />
+            Desenvolvimento Full-Stack
+          </h5>
 
           <p className="text-sm mt-20 text-center h-80 flex items-center">
             React, Node.js e construção de aplicações web.
@@ -34,11 +36,11 @@ export function Timeline() {
         {/* 2022 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center font-semibold mt-8 ">
+          <h5 className="text-lg text-center font-semibold mt-8 ">
             2022
             <br />
             Ecossistema React e Front-End
-          </h1>
+          </h5>
 
           <p className="text-sm mt-20 text-center h-full flex items-center">
             Aprofundamento em React e tecnologias front-end avançadas.
@@ -48,13 +50,13 @@ export function Timeline() {
         {/* 2023 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center w-full font-semibold mt-8 ">
+          <h5 className="text-lg text-center w-full font-semibold mt-8 ">
             2023
             <br />
             Aplicação
             <br />
             Prática
-          </h1>
+          </h5>
 
           <p className="text-sm mt-20 text-center h-full flex items-center">
             Projetos práticos e exploração de novas tecnologias.
@@ -64,11 +66,11 @@ export function Timeline() {
         {/* 2024 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center font-semibold mt-8 ">
+          <h5 className="text-lg text-center font-semibold mt-8 ">
             2024
             <br />
             Aprofundamento Tecnológico
-          </h1>
+          </h5>
 
           <p className="text-sm mt-20 text-center h-full flex items-center">
             React, TypeScript e Node.js avançados.
@@ -78,11 +80,11 @@ export function Timeline() {
         {/* 2025 */}
         <div className="relative flex flex-col justify-around text-center items-center max-w-[200px] h-80">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-zinc-100 z-10"></div>
-          <h1 className="text-lg text-center font-semibold mt-8 ">
+          <h5 className="text-lg text-center font-semibold mt-8 ">
             2025
             <br />
             Desenvolvimento e Prática Intensiva
-          </h1>
+          </h5>
 
           <p className="text-sm mt-20 text-center h-full flex items-center">
             Aplicação de conhecimentos em projetos e aprimoramento contínuo.
