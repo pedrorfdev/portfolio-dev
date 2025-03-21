@@ -11,3 +11,6 @@ Criação da versão inicial do meu portfolio
 ## ✒️ Autores
 
 * **Pedro Ferreira** - [pedrorf.dev](https://github.com/pedrorfdev)
+
+### Informações adicionais
+Template escolhido - 02
